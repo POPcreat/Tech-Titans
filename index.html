@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tech Titans</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Intro / Landing -->
+  <div class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="intro-title">
+    <div class="card">
+      <div class="brand">
+        <div class="logo"><img src="TTLogo.png" width="54px"></img></div>
+        <div>
+          <div class="tag">Tech Titans Present's</div>
+          <h1 id="intro-title">Business Analytics in Healthcare</h1>
+          <ol>
+            <h4>This project is presented by:</h4>
+            <li>Parth Oturkar</li>
+            <li>Rohit Neve</li>
+            <li>Viswajit Solanke</li>
+            <li>Krushna Wani</li>
+            <li>Vedant Thorat</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="start-area">
+        <button id="startBtn" class="start-btn" aria-label="Start the presentation">Start</button>
+        <p class="small">Click Start to enter the presentation.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main site content (hidden until Start) -->
+  <main class="site" id="site" role="main" aria-hidden="true">
+    <section class="present" aria-label="Presentation area">
+      <div class="slides" id="slides">
+
+        <article class="slide active" data-index="0" tabindex="0" aria-hidden="false">
+          <div class="slide-inner">
+            <h2>What is Business Analytics?</h2>
+            <p>This field uses statistical analysis and quantitative methods to explore past business performance to gain insights and drive business planning. It combines data analytics, business intelligence, and computer programming to turn data into actionable information.</p>
+            <h2>Why Business Analytics is needed in today's world?</h2>
+            <p>Business Analytics is essential in todays world as it enables organizations to make informed, data-driven decisions. It helps in identifying trends, improving operational efficiency, understanding customer behavior, minimizing risks, and enhancing overall business performance. By leveraging data insights, companies can gain a competitive advantage and achieve strategic goals effectively</p>
+            </div>
+        </article>
+
+        <article class="slide" data-index="1" tabindex="0" aria-hidden="true">
+          <div class="slide-inner">
+            <h2>Types of Business Analytics :-</h2>
+            <p> 1) <B>Descriptive analytics:</B> Summarizes and visualizes historical data to understand past events. It helps answer the question, "What happened?"<br>
+                2) <B>Predictive analytics:</B> Uses statistical models and forecasting techniques to predict future outcomes. It addresses the question, "What could happen?"<br>
+                3) <B>Prescriptive analytics:</B> Recommends specific actions to optimize outcomes and provides answers to the question, "What should we do?".</p>
+            <h2>Role of IBM in Business Analytics:</h2>
+            <p>IBM has played a significant role in advancing the field of Business Analytics by providing powerful tools, platforms, and technologies that help organizations analyze data and make strategic decisions. IBMs analytics solutions integrate artificial intelligence, machine learning, and cloud computing to turn raw data into valuable insights.<br></p>
+            </div>
+        </article>
+
+        <article class="slide" data-index="2" tabindex="0" aria-hidden="true">
+          <div class="slide-inner">
+            <h2>Business Analytics in HealthCare </h2>
+            <p>Business Analytics plays a crucial role in improving healthcare quality, efficiency, and patient outcomes by converting medical and operational data into actionable insights. It helps healthcare organizations make data-driven decisions for better management and patient care.</p>
+            <p><B>Application:</B><br>
+                1.Patient Care Improvement<br>
+                2.Operational Efficiency<br>
+                3.Cost Management<br>
+                4.Public Health Analytics<br>
+            </p>
+            </div>
+        </article>
+
+        <article class="slide" data-index="3" tabindex="0" aria-hidden="true">
+          <div class="slide-inner">
+            <h2>Practical Examples Explaining Problems and Solutions</h2>
+            <p><b>1. Rising Healthcare Costs: </b><br>
+                    Problem: Hospitals and healthcare institutions are struggling with increasing treatment costs, equipment expenses, and insurance claims.<br>
+                    How Business Analytics Helps:
+                    It identifies cost inefficiencies, optimizes resource usage, and reduces waste by analyzing financial data. Predictive analytics helps forecast demand and allocate budgets effectively.
+            </p>
+            <p><b>2. Inefficient Resource Management: </b><br>
+                    Problem: Many hospitals face issues like shortage of beds, long patient waiting times, and improper staff allocation.
+                    How Business Analytics Helps:
+                    It helps in capacity planning, staff scheduling, and workflow optimization by analyzing patient inflow data and operational trends.
+            </p>        
+          </div>
+        </article>
+
+        <article class="slide" data-index="4" tabindex="0" aria-hidden="true">
+          <div class="slide-inner">
+            <h2>Thank You Sir for your Presence.</h2>
+            <p>Sir Please guide us by giving the Review. <br>
+                <a href="https://form.svhrt.com/68efbd64a585d759843f9413">Review</a></p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="controls">
+        <div class="nav-left">
+          <button id="prevBtn" class="btn-ghost" aria-label="Previous slide">← Prev</button>
+          <button id="nextBtn" class="btn-ghost" aria-label="Next slide">Next →</button>
+        </div>
+
+        <div class="dots" id="dots" role="tablist" aria-label="Slide navigation"></div>
+      </div>
+    </section>
+
+    <div class="footer-note">
+      <p>Tip: Press <kbd>Esc</kbd> to return to the intro screen.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
